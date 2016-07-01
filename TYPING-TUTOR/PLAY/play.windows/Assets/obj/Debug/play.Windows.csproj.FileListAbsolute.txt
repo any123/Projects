@@ -1,0 +1,119 @@
+C:\Users\ANKIT\Desktop\play\play\play.Windows\bin\Debug\App.xbf
+C:\Users\ANKIT\Desktop\play\play\play.Windows\bin\Debug\MainPage.xbf
+C:\Users\ANKIT\Desktop\play\play\play.Windows\bin\Debug\play.Windows.xr.xml
+C:\Users\ANKIT\Desktop\play\play\play.Windows\bin\Debug\play.Windows.exe
+C:\Users\ANKIT\Desktop\play\play\play.Windows\bin\Debug\play.Windows.pdb
+C:\Users\ANKIT\Desktop\play\play\play.Windows\bin\Debug\resources.pri
+C:\Users\ANKIT\Desktop\play\play\play.Windows\bin\Debug\AppxManifest.xml
+C:\Users\ANKIT\Desktop\play\play\play.Windows\bin\Debug\play.Windows.build.appxrecipe
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\App.g.i.cs
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\App.g.cs
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\MainPage.g.i.cs
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\MainPage.g.cs
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\App.xaml
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\App.xbf
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\MainPage.xaml
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\MainPage.xbf
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\play.Windows.exe
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\play.Windows.pdb
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\priconfig.xml
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\layout.resfiles
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\resources.resfiles
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\pri.resfiles
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\qualifiers.txt
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ANKIT\Desktop\play\play\play.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\App.xbf
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\BasicPage1.xbf
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\MainPage.xbf
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\play.Windows.xr.xml
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\play.Windows.exe
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\play.Windows.pdb
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\resources.pri
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\AppxManifest.xml
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\play.Windows.build.appxrecipe
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\Microsoft.Advertising.WinRT.UI.winmd
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\bin\Debug\MicrosoftAdvertising.xml
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\App.g.i.cs
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\App.g.cs
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\BasicPage1.g.i.cs
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\BasicPage1.g.cs
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\MainPage.g.i.cs
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\MainPage.g.cs
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\App.xaml
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\BasicPage1.xaml
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\MainPage.xaml
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\App.xbf
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\BasicPage1.xbf
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\MainPage.xbf
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\play.Windows.exe
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\play.Windows.pdb
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\priconfig.xml
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\layout.resfiles
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\resources.resfiles
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\pri.resfiles
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\qualifiers.txt
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ANKIT\Desktop\My Work\play\play\play.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\App.xbf
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\BasicPage1.xbf
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\MainPage.xbf
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\play.Windows.xr.xml
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\play.Windows.exe
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\play.Windows.pdb
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\resources.pri
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\AppxManifest.xml
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\play.Windows.build.appxrecipe
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\Microsoft.Advertising.WinRT.UI.winmd
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\Microsoft.Advertising.WinRT.UI.xml
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\MicrosoftAdvertising.winmd
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\MicrosoftAdvertising.xml
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\App.g.i.cs
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\App.g.cs
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\BasicPage1.g.i.cs
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\BasicPage1.g.cs
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\MainPage.g.i.cs
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\MainPage.g.cs
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\App.xaml
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\BasicPage1.xaml
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\MainPage.xaml
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\App.xbf
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\BasicPage1.xbf
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\MainPage.xbf
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\play.Windows.exe
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\play.Windows.pdb
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\priconfig.xml
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\layout.resfiles
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\resources.resfiles
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\pri.resfiles
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\qualifiers.txt
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\startpage.g.i.cs
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\startpage.g.cs
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\startpage.xaml
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\startpage.xbf
+C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\startpage.xbf
