@@ -1,0 +1,180 @@
+6to enter a whole line	string str;		getline(cin,str);		int len=str.size( );
+			char strp[123]	cin.getline(str,123);		int len=strlen(str);
+
+s2=strrev(s1);		where 	char s1[10],s2[20];		language c
+s2=s1;			where      string s1,s2;		language c++
+reverse(s2.begin( ),s2.begin( )+4 or s2.end())
+
+#define max a>b?a:b
+
+To solve contiguous and non contiguous sub array sum(maximum)
+
+To find whether the entered number is int or float
+bool integer(float k) 
+ { if(k==(int)k)  
+ return true;
+   return false;
+}
+
+1 3 6 10 15 21......   n (n+1)/2   formula
+cin>>n;  this formula gives the nth term of the series
+
+two find whether (a,b) can reach to (x,y)  compare the gcd of a b and x y;  if they match then only the way is possible;
+
+cont int n=1e5;	means n=10^5  i.e the maximum size of 1-D array
+thus
+int arr[n];
+
+do care that if u use sort(arr,arr+n);
+then elements will be sorted from 0 to n-1 and not from n=1 to n
+
+note the difference
+# define ll long long int
+typedef long long int ll
+
+U can initiize a 2D array using memset
+memset(array, 0, sizeof(array));
+
+never forget to use
+fflush(stdin);
+before getline(cin,string_name);
+
+
+int arr[2][2]={1,2,3,4};
+int arr_again[2][2]={{1,2},{3,4}};
+
+how to pass a 2D array in a function
+____________________________________
+# define v 2
+void pass(int arr_name_changed[][v])
+{
+	cout<<"Hi !!!";
+}
+int main()
+{
+int arr_again[2][2]={{1,2},{3,4}};
+pass(arr_again);
+}
+____________________________________
+
+//playing with strings
+string s="kuch bhi";
+s=s.substr(2,5);
+
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+				TREES
+Full tree and perfect binary tree are same   (LW: triangle)
+Complete binary tree   (LW: as left as possssible)
+
+For a binary tree
+n=2h+1  to n=2^h+1  -1	min to max   (max for Full Binary tree)
+l=2^h      or   n=2l-1;      full Binary tree
+
+Complete tree
+number of internal nodes= lower_ceiling(n/2)
+
+
+_______________________________________________________________________________________________________________________________________________________________________________________________
+
+A= B (mod m)   this implies following
+(A-B) is multiple of m
+A mod m = B mod m
+
+in above m should be as big as possible and sholud be prime. so we generaly use 10^9+7
+
+not that that long long takes 64 bits so range varies as big as 2^63 -1
+
+learn the three ways to solve the famous problem of sum_of_subset_=given value
+Bit masking
+Backtraking
+DP
+
+Modulo Arthimatic(in progrmming)
+ (a+b)%m=(a%m+b%m)%m;
+(a-b)%m= (a-b+m)%m;
+(a*b)%m= ((a%m)*(b%m) ) %m
+(a/b)%m=(a*c)%m;    where c= multiplicate inverse b;
+__________________________________________________________________________________________________________________________________________________________________
+
+extern variable: it is used to refer to a file as if # include<"somefile.h">
+ 		but it should be declared and defined in one go
+ 		i.e extern int var=3;  now you can change and manipulate the value.
+		    extern int var; will not do;
+
+void pointer:(its size is always 2 bytes)
+int a; char b;
+void *p;
+p=&a;  (true)
+p=&b; (true)
+<USE OF VOID POINTER>
+in malloc and calloc as they they returns void pointers and we can type cast to anything we want.
+
+<DANGLING POINTER>: If any pointer is pointing the memory address of any variable
+but after some variable has deleted from that memory location
+while pointer is still pointing such memory location. Such pointer is known as dangling pointer and this problem is known as dangling pointer problem.
+
+<NULL POINTERS AND UNINITILIZED POINTERS>
+int main(){
+    char *p;  //Uninitialized pointer
+    char *q=NULL;   //Null pointer;
+    strcpy(p,"playing with c");
+   strcpy(q,"playing with c");   //a run time error
+
+    printf("%s" ,p);
+    return 0;
+}
+
+struct employee						
+{
+    int x;
+    char arr[8];
+    int y;
+}q;
+
+printf("Size of structure is :%d",sizeof(q)); 
+// q will be 16 bytes: 4+8+4
+
+union employee
+{
+    int x;
+    char arr[8];
+    int y;
+}q;
+
+printf("Size of union is :%d",sizeof(q)); 
+// q will be 8 bytes i.e size of largest variable var[8] here
+_____________________________________________________________
+*(num+1)[1]
+=*(*((num+1)+1))
+=*(*(num+2))
+=*(num[2])
+=num[2][0]
+=15
+And
+**(num+2)
+=*(num[2]+0)
+=num[2][0]
+=15
+______________________________________________________________
+
+* No. of squares in N*N matrix n*(n+1)*(2n+1)/6
+* No. of  rectangles(including square)= [n*(n+1)/2]*[n*(n+1)/2]
+* Column name from a given column number(EXCELL SHEET)
+	Suppose we have a number n, let’s say 28. so corresponding to it we need to print the column name. We need to take remainder with 26.
+
+	If remainder with 26 comes out to be 0 (meaning 26, 52 and so on) then we put ‘Z’ in the output string and new n becomes n/26 -1 because here we are considering 26 to be ‘Z’ while in actual it’s 25th with respect to ‘A’.
+
+	Similarly if the remainder comes out to be non zero. (like 1, 2, 3 and so on) then we need to just insert the char accordingly in the string and do n = n/26.
+
+	Finally we reverse the string and print.
+
+
+
+
+
+
+
+
+
+

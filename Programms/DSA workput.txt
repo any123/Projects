@@ -1,0 +1,188 @@
+
+5: Learn the O complexity for all the sorts.(LW as below) (q=quick sort)
+	Q M B I S
+6: DFS  take following time
+	using adjecency list  O(m+n)
+	using adjecency matrix O(n*n)
+where there are n vertices and m edges
+
+7: How many spanning trees can be there in a complete graph with n vertices?
+   How many labelled trees(note trees not binary trees) can be there with n veritces?
+ANS: n^n-2
+
+8: typedef is considered another storage class like(auto,register,static, extern)
+but u cant use two typedef at the same time like
+typedef int point;    (true)
+typeted static int point;  (false)
+
+9: int x =012;
+cout<<x;   will print 10(octal representation of 012)
+
+10: In c a structure cannot have static members but c++ can have.
+
+11:  	consider a n-ary tree. 
+	L=(n-1)*l+1;
+	where a node can have 0 to n childs.
+	l=no. of internal nodes
+	L=no. of leaf nodes.
+
+12: The no. of structarally different Binary trees with n nodes is catalan no.  
+ = (2n!)/(n+1!)*(n!)
+
+13: cout<<sizeof("ankit");   6  (includes NULL also)		int arr={1,2,3},*p;   p=arr;
+
+    cout<<strlen("ankit");   5				cout<<sizeof(arr)<<" "<<sizeof(p);                o/p    3  4
+
+14: Learn BFS DFS and topological order.
+
+15:C language doesnt give precedence of passing of pramaters (left to right or vice-versa) 
+but w can explicilty do this.
+
+	void pascal funct_name(int i,int j){}     // left to right
+	void cdecl funct_name(int i,int j){}      // right to left
+
+16: CYCLIC nature of variables
+signed char: 	 -128 to 127
+unsigned char:	0    to 256
+signed int:		
+
+17: Before going to interview please see the different sorting algorithms from GFG(extra after the programm)
+
+18: printf("%d",main);    prints address of main function
+
+19: every time we need to pass a pointer from main or any other function it  should be initialized to NULL.
+
+20: comments written between anything works there is no error.
+      compilor ignores the statements b/w /*_____*/   except between " "
+
+21: int a=10,b;      a=-b--;        now this is   -(b--)     so   a=-10;    b=9;
+
+22:  DIFFERENCE
+   int *const ptr                         u can change the value not the address
+   int const *ptr                         u can change the address not the value
+
+23: For a graph (V,E) a spanning trees is a tree containing all the vertices and v-1 edges.
+      also all the spanning trees are min spanning in an unwieghted graph.(DFS or BFS traversal gives min spanning tree)
+
+______________________________________________________________________________________________________________________________________________________________________________________________
+						CONFUSIONS
+1:     struct node *n=(struct node *)malloc(sizeof(structnode));
+        struct node *n =new node;
+
+2:  const char *p    and   char const *p;
+
+3:   largest value using bits
+
+4 : int *p[10]                   array of pointers
+     int (*p)[10]               pointer to an array
+
+5: pointers usually takes about 4 bytes of memeory
+
+6: a<<b= a*2^b;
+
+7:  sizeof("abcd")  ==sizeof(ch)   =5   ch[]="abcd";
+    char *ch="abcd"     sizeof(ch)= 4
+
+8: Difference between spanning tree and MST
+
+9:FULL(triangle)    complete(as left)     perfect tree  === 2^h+1-1
+
+10:  q using stacks   
+        stacks using queue
+      2 stacks in an array(n/2 and efficient way)
+
+11:LCA and level order
+
+12: s=s+i;    or j=j+i;      i*i<n     O(sqrt(n)) 
+       i=i*2;    or j=j/2;                    O(logn)
+
+_______________________________________________________________________________________________________________________________________________________________________________________________
+				TOPCODER TUTORIALS
+
+add two polynomials using GCD.
+
+Area =B/2 +I-1;      B and I are the no. lattice points on the boundary and inside the boundry respectively of a polygon.
+ 
+V-E+F=2;		V=vertices,     E=edges     F=faces
+
+Set union 		A | B
+Set intersection 	A & B
+Set subtraction   	A & ~B
+Set negation    	ALL_BITS ^ A
+Set bit     		A |= 1 << bit
+Clear bit    	 	A &= ~(1 << bit)
+Test bit        	(A & 1 << bit) != 0
+
+
+ x is a power of 2 if and only if (x & (x-1) == 0). 
+
+memset(arr,x,sizeof(arr));		use for x=0 or x=1
+
+end
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+memcpy(arr1+m,arr2,sizeof(arr2));		to concatenate array 2 elements to the first one without  where arr1 and arr2 are of sizes of m and n respectively.
+
+vector<int> v 	and 		list<int>l   
+both have their own features    like 
+vector do not have option for pop_front() or push_front( ) while list do
+list do not have   it=l.at(3) option to reach our iterator at the paritucular position while vector do
+
+notethe difference between vector<int> v(10)     allloted sizeo= for 10 elements
+		               vector<int>v[10]    here 10 different dynamics arrays are there.
+
+assert function 
+cin>>n>>x; 				try to enter the values of n and x and see that how the programm behave when the values goes beyond ......
+assesrt(n>=1 && n<=10000000 &&  x<45)    	the programm will terminate with the error message. 
+
+Big rrays declare them outside 
+
+Difference b/w calloc and malloc
+ 1: calloc takes two parameters calloc(no. of blocks,size of each block);
+    malloc takes one parameter malloc(total size);
+
+ 2: calloc works adddtionally by creating a dynamic array and intitilaizing it with 0
+____________________________________________________________________________________________________________________________________________
+<SUBSEQUENCE SUBSET and SUBARRAY>
+ 3
+down vote
+	
+
+In my opinion, if the given pattern is array, the so called subarray means contiguous subarray.
+
+For example, if given {1, 2, 3, 4}, subarray can be
+
+{1, 2, 3}
+{2, 3, 4}
+etc.
+
+While the given pattern is a sequence, subsequence contain elements whose subscripts are increasing in the original sequence.
+
+For example, also {1, 2, 3, 4}, subsequence can be
+
+{1, 3}
+{1,4}
+etc.
+
+While the given pattern is a set, subset contain any possible combinations of original set.
+
+For example, {1, 2, 3, 4}, subset can be
+
+{1}
+{2}
+{3}
+{4}
+{1, 2}
+{1, 3}
+{1, 4}
+{2, 3}
+etc.
+
+_____________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+

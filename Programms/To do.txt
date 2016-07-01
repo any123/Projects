@@ -1,0 +1,75 @@
+
+Tower of hanoi            			LW: 123   132  321
+Factorial using array				
+Min platform problem				LW: platform_needed++,i++; else platform_needed--,j++
+Nuts and bolt problem				LW: 2partition 2 recursive call and 3 swap
+Reverse 32 bits of a number			LW: num >>=1(2 times) and in between rev_num <<=1;
+maximum of j-i					LW: create two arrays Lmin[] and Rmax[];
+longest palindrone substring			LW: create a 2D array check for 1 length,2 length and then>2 length, n-k+1  and j=i+k-1;
+reverse a string word wise			LW: first reverse the whole string and then proceed using ' ' as break and generste substrings
+max stock profit problem			LW: struct buy,sell local min and max
+
+use priority queue & create min heap		LW: priority_queue(int,vector<int>,compare)
+flipping zeroes to find max 1			LW: rw,lw maxwindow
+sum of subset=given number			LW: subset[sum+1][n+1] if (i >= set[j-1])
+						subset[i][j] = subset[i][j] || subset[i - set[j-1]][j-1];
+find common in 3 sorted arrays			LW: O(n1+n2+n3)
+GCD						LW:int gcd(int a,int b){
+							if(b==0)  return a;
+							return gcd(b,a%b);
+									}
+segment tree(to find sum of array or update
+	      value both in log n time)		LW:build(); modify(); query();
+
+largest contiguous sum				LW:  for(i=0;i<n;i++)						
+      (return new_sum)  					     {
+            						sum=sum+arr[i];
+             						if(sum<0)  sum=0;
+             						if(sum>new_sum)   new_sum=sum;
+         					    }
+how to sort two arrays matchingly		see the file E:\Documents\ankit\interview\sort two arrays matchingly(IMP).cpp
+job assignment problem 				LW: two arrays result[n], and slot[n];   complexity=O(n*n)
+Longest Common subsequence			LW:build a 2D array in top-down fashion considering L[i][j],L[i+1][j],L[i][j+1],L[i+1][j+1]
+						and return L[m][n]
+Convert str1 to str2				LW: dp[i][j] = 1 + min(dp[i][j-1],  // Insert
+                                	 		  dp[i-1][j],  // Remove
+                                  			 dp[i-1][j-1]); // Replace
+min of three numbers				int min(int x,int y,int z)
+						{
+						   return min(min(x,y),z);
+						}
+coin change problem				 for(int i=0; i<m; i++)
+      					   	    for(int j=S[i]; j<=n; j++)
+            						table[j] += table[j-S[i]];
+
+Floyds Algorithm				LW: simple O(n*n*n) compleixty solution see page 404 of karumanchi book
+using binary_search in STL			Note: vector<int>v(arr,arr+10)
+string is parenthized or not			LW: use stack and top++ or top--
+occurance of a no. in sorted array		LW: use firstocc and lastocc
+
+check if a no. is power of two			LW: try(int x){ if(x &&!(x&(x-1))
+								return true;
+								return false;
+							       }
+
+count no. of ones				LW: while( n )
+      						  {
+        					n = n&(n-1);
+           					count++;
+        						}
+        					return count;
+
+ith bit of no. n is set or not			LW:bool check (int N,int i)
+						{
+    						if( N & (1 << i) )
+        					return true;
+    						 else
+        					return false;
+						}
+a<<b		a*pow(2,b)
+________________________________________________________________
+		P E N D I N G
+(Dynamic Programming)
+Longest Increasing Subsequence
+
+		

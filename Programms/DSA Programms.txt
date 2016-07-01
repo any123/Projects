@@ -1,0 +1,94 @@
+
+			
+Declare large array globaly
+
+MINOR 1
+D queues
+PQ= 1D,2D
+Circular queues
+Qeue using two stacks
+in to postfix 
+ 
+MINOR 2
+Linked list 3
+Double LL 4
+sparsh matrix
+Circular LL
+LL using array
+Generalise LL
+Add and multiply polynomials
+
+TREES
+traversal (pre,in,post)
+BST (insertion,deletion)
+AVL(seletion)
+Threaded Binary tree
+
+
+THIS WINTER
+depth and breadth first search from geeksforgeeks.
+Trees: 1) height/depth of tree.
+	2) if 2 trees are idential
+	3)Level order traversal
+	4)Count leaf nodes
+	5)Given a tree print all root to leaf paths.
+
+size_t 		atoi		fabs
+
+
+SIZES
+char_____________________1
+int,long_________________4
+float____________________4
+long double,double,long float__________________________8 bytes or 32 bits.
+
+
+
+
+Competive programming
+-> sqroot of a number
+->recursive alogirithm for GCD/LCM 
+-> Totien function 
+-> Rank of a matrix
+->LCS longest comman subsequence
+->fibonaaci number
+->seive erarosthenes
+->Primality test  Miller robin (Learn It)
+
+__________________________________________________________________________________________________________________________________________________
+							NOTES
+# a>>b =  a/2^b
+# a<<b = a*2^b
+# if(a is odd) =  if(a & 1)
+# x=x%p;       update x if it is more then or equal to p i.e it means x will always b/w 0 <--> p;
+# include<limits.h>  see the net for this header file.          cout<<INT_MAX;
+#include<iostream.h>   compilors see the header file in default source path.
+   include"iostream.h"     above +compilor see in current working dirrectory(where u hv saved your programs).
+_____________________________________________________________________________________________________________________________________
+							GRAPHS
+# matrix representation(O(n*n))
+   adjacency list	 (O(m+n))
+# diff  b/w spanning and min spanning tree(MST)
+spanning: shortest path b/w two nodes 
+MST	: shortest path bytaking mim wiehted paths to reach the destination node.
+
+# BFS and DFS traversal and thier seprate applications
+# Prims and Krushkal algorithm to find MST. 
+
+# Djkastra algorithm for dist b.w source and given node.(no -ve edge)
+    Bellman-Ford algorithm " " " " " " " " " "  " " " " " " " " (-ve edge r there)
+
+
+Associative maping:  simply CPU searches for each addresses and compare 
+Direct maping: Here the CPU address is divided into index( stored in cache ) and tag field;
+	          first the index field is matched, if ok then taf fied is searched;
+	          We can't store two or words having same indexes but diffferent tag;
+
+Set-associative: Overcome direct mappings last point.
+
+LINKED LIST
+-> see the 12 questions well framed in gfk->gate->quiz
+
+
+
+
