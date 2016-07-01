@@ -1,0 +1,32 @@
+Difference b/w DFS & BFS
+DFS: 	it is memory efficient
+	use stack
+	more apllications like
+	topological sort,finding cut vertices and bridges,finding stringly connected problems
+
+BFS:	uses queue
+	apllication like finding shortest path, or finding srtongly connected components
+
+Hamilton graph=Travelling Salesman Problem=NP-Complete Problem
+
+if the graph is hamilton graph then unique tological sorting exist for that graph.
+___________________________________________________________
+Time Complexities
+
+BFS=DFS=Topological sort=O(E+V)
+Dijkstras  O(ELogV)  if we use max heap or priority_queue
+Bellman Ford O(E.V)
+Prims   O(ElogV)
+Krushkal  O(ElogE)
+
+
+Dijkstras= used to find the shortest distance from the source to any given vertices
+Bellman Ford= used to find same as above even if the dges are of -ve weigth
+Floyd-Wasrahl= shortest path from all source to all destination
+  
+
+		<TOPOLOGICAL SORTING>
+All vertices of  0 degree are placed on queue. while the qeue is not empty, a vertex v is removed and all the edges adjacent to v have their indegrees 
+decremented. a vertices is put on the queue as soon as its indegree fall to 0.
+The topological  sort is the order in which the vertices r deqeue.
+
