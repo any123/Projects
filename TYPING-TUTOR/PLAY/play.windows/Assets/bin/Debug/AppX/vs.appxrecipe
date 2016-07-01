@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANKIT-PC</Machine>
+    <WindowsUser>ANKIT</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>12dc2eb6-39d2-4ea3-b163-309a8acbf485</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>72827BB552941951570C9D8A1490A4FEA6442F4C65A8475CE3BA5BD3DF17DB16</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>12dc2eb6-39d2-4ea3-b163-309a8acbf485_1.0.0.0_neutral__ewprzfefyhs4m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>12dc2eb6-39d2-4ea3-b163-309a8acbf485_ewprzfefyhs4m!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>12dc2eb6-39d2-4ea3-b163-309a8acbf485</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ANKIT</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-14T10:35:10.121</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\play.Windows.exe">
+      <PackagePath>play.Windows.exe</PackagePath>
+      <Modified>2016-06-27T08:11:39.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
+      <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
+      <Modified>2013-09-13T06:12:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
+      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
+      <Modified>2013-09-13T06:12:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\AdSettingsFlyout.xbf</PackagePath>
+      <Modified>2013-09-13T06:12:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\Themes\Generic.xbf</PackagePath>
+      <Modified>2013-09-13T06:12:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\bootstrap.html">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\bootstrap.html</PackagePath>
+      <Modified>2013-09-13T06:13:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI\ormma.js">
+      <PackagePath>Microsoft.Advertising.WinRT.UI\ormma.js</PackagePath>
+      <Modified>2013-09-13T06:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-18T11:40:47.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-14T05:24:53.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-17T14:14:22.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-06-14T10:35:01.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\BasicPage1.xbf">
+      <PackagePath>BasicPage1.xbf</PackagePath>
+      <Modified>2016-06-19T06:12:52.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-06-27T07:31:41.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\startpage.xbf">
+      <PackagePath>startpage.xbf</PackagePath>
+      <Modified>2016-06-14T10:35:01.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\play.Windows.xr.xml">
+      <PackagePath>play.Windows.xr.xml</PackagePath>
+      <Modified>2016-06-20T04:41:29.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ANKIT\Desktop\Achha H\My Work\play\play\play.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-06-14T10:35:02.721</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
