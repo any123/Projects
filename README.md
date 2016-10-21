@@ -1,2 +1,2 @@
 # Projects
-Projects till 1 JULY 2016
+Projects till 1 November 2016
