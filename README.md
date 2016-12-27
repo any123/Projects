@@ -1,7 +1,7 @@
 # Projects
-Projects till 1 December 2016
+Projects till 30 December 2016
 
-1: An ASP.NET website (http://downloadzone.somee.com/ )to download images,softwares waalpapers
+1: An ASP.NET website (http://downloadzone.somee.com/ )to download images,softwares and waalpapers
 
 2: A DOT NET application "TYPING TUTOR" in C# using visual studio
 
