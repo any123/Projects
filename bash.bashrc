@@ -125,3 +125,16 @@ alias open="sudo gedit /etc/bash.bashrc"
 
 alias finds = 'grep -rnw' 
 
+alias re='reboot'
+
+alias shut="sudo init 0"
+
+alias sus='systemctl suspend'
+
+alias logoff='gnome-session-quit'
+
+alias program='xdg-open "/media/ankit/New Volume/Programming"'
+
+alias ankit='xdg-open "/media/ankit/New Volume/ANKIT"'
+
+alias sea='xdg-open "/media/ankit/New Volume/Seasons"'
