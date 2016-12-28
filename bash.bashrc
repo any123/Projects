@@ -1,5 +1,3 @@
-# located in /etc/bash.bashrc
-
 # System-wide .bashrc file for interactive bash(1) shells.
 
 # To enable the settings / commands in this file for login shells as well,
@@ -120,4 +118,8 @@ up(){
 alias play="sudo find -name "*.mp3" | sort --random-sort| head -n 100|xargs -d '\n' mpg123"
 
 alias orphan="sudo deborphan | xargs sudo apt-get -y remove --purge"
+
+alias e='exit'
+
+alias open="sudo gedit /etc/bash.bashrc"
 
