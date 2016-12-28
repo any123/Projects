@@ -123,3 +123,5 @@ alias e='exit'
 
 alias open="sudo gedit /etc/bash.bashrc"
 
+alias finds = 'grep -rnw' 
+
