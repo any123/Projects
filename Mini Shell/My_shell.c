@@ -15,6 +15,8 @@ int ankit_shell_present_working_dir(char **args);
 int ankit_shell_list(char **args);
 int ankit_shell_nslookup(char **args);
 int ankit_shell_open(char **args);
+int ankit_shell_clear(char **args);
+int ankit_shell_sus(char **args);
 /*
   List of builtin commands, followed by their corresponding functions.
  */
@@ -25,7 +27,9 @@ char *builtin_str[] = {
   "present_working_dir",
   "list",
   "nslookup",
-  "open"
+  "open",
+  "CLEAR",
+  "sus"
 };
 
 int (*builtin_func[]) (char **) = {
@@ -35,7 +39,10 @@ int (*builtin_func[]) (char **) = {
   &ankit_shell_present_working_dir,
   &ankit_shell_list,
   &ankit_shell_nslookup,
-  &ankit_shell_open
+  &ankit_shell_open,
+  &ankit_shell_clear,
+  &ankit_shell_sus
+  
 };
 
 int ankit_shell_num_builtins() {
@@ -59,7 +66,7 @@ int ankit_shell_open(char **args)
     fprintf(stderr, "ankit_shell: expected argument to path of file to run\n");
   } else {
     
-    fprintf(stdout,"%s","Now enjoy the the application u selected\n");
+    fprintf(stdout,"%s","Here is the application u selected\n");
     char sie[1000]="";
     
     strcat(sie,"see");
@@ -71,6 +78,39 @@ int ankit_shell_open(char **args)
   }
   return 1;
 }
+
+
+int ankit_shell_sus(char **args)
+{
+	fprintf(stdout,"%s","The system is gonna suspend after 5 seconds: \n");
+	 int k=5;
+	do
+	{
+		printf("%d seconds left\n",k);
+		sleep(1);
+		fflush(stdout);
+	}while(k--); 
+	
+	char *result = malloc(400);
+	
+	strcpy(result,"systemctl suspend");
+	
+	system(result);
+	return 1;
+}
+int ankit_shell_clear(char **args)
+{
+	
+	if(args[0]!='\0')
+	{
+		fprintf(stdout,"%s","CLEAN AFTER WAITING FOR 5 SEC !!!\n");
+				sleep(5);
+		
+		system("clear");
+	}
+	return 1;
+}
+
 
 int ankit_shell_changedir(char **args)
 {
@@ -208,6 +248,10 @@ int ankit_shell_help(char **args)
  */
 int ankit_shell_exit(char **args)
 {
+	fprintf(stdout,"%s","Bye!!! see you soon :)\n");
+	if(args[0]!='\0')
+	exit(1);
+	
   return 0;
 }
 
@@ -247,6 +291,7 @@ int ankit_shell_launch(char **args)
     do {
 		pid_t wpid;
       wpid = waitpid(pid, &status, WUNTRACED);
+      
     } while (!WIFEXITED(status) && !WIFSIGNALED(status));
   }
 
@@ -384,13 +429,26 @@ void ankit_shell_loop(void)
  */
 int main(int argc, char **argv)
 {
+	printf("Welcome to Ankit_shell\n");
+  printf("Type program names and arguments, and hit enter.\n");
+  printf("The following are built in:\n");
+  
+  for (int i = 0; i < ankit_shell_num_builtins(); i++) {
+    printf("  %s\n", builtin_str[i]);
+  }
+  printf("%c",'\n');
   // Load config files, if any.
+	
+	char *temp=malloc(100);
+	strcpy(temp,"exec bash");
+	
+	system(temp);
 
   // Run command loop.
   ankit_shell_loop();
 
   // Perform any shutdown/cleanup.
+	
 
   return EXIT_SUCCESS;
 }
-
