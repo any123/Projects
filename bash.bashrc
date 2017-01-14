@@ -123,7 +123,7 @@ alias e='exit'
 
 alias open="sudo gedit /etc/bash.bashrc"
 
-alias finds = 'grep -rnw' 
+alias finds="grep -rnw" 
 
 alias re='reboot'
 
@@ -138,3 +138,15 @@ alias program='xdg-open "/media/ankit/New Volume/Programming"'
 alias ankit='xdg-open "/media/ankit/New Volume/ANKIT"'
 
 alias sea='xdg-open "/media/ankit/New Volume/Seasons"'
+
+alias c='clear'
+
+alias t1='sudo rm /var/lib/apt/lists/lock'
+
+alias t2='sudo rm /var/cache/apt/archives/lock'
+
+
+
+
+
+
