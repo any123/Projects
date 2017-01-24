@@ -5,6 +5,8 @@ Projects till 30 December 2016
     Launched an ASP.NET Web site(free hosting) just to download songs,wallpapers and software's (live on the Internet). 
     Languages used: C# for backend , SQL SERVER  For database and HTML,CSS and XAML for   
     Frontend.
+    
+    
                        
     
 2: A DOT NET application "TYPING TUTOR" in C# using visual studio
@@ -13,11 +15,15 @@ Projects till 30 December 2016
     Dot Net Framework used  : version 4.5.1
     
 
+
+
 3: Three Dimensional textures created in C using OPEN-GL Library
    Used OpenGL (Open Graphics Library) which is a computer industry's standard application program interface ( API ) for defining  .  2-D and 3-D graphic images.
 
- IDE used : CodeBlocks
- API Version used : 4.5
+   IDE used : CodeBlocks
+   API Version used : 4.5
+ 
+ 
  
 
 4: Wrote a mini Linux Shell having features apart from running the basic commands such as opening any file, 
@@ -26,6 +32,7 @@ Projects till 30 December 2016
     modification of pre-defined shell  commands  for relative ease of the user.
     Sample commands include:
     opening any file, finding IP and port no. of a site, suspend a system e.t.c  
+
 
 
 5: A DOT NET console appllication to clean temp,recycle-bin files,cache just like CC Cleaner using C# in Visual studio.
