@@ -1,0 +1,10 @@
+
+mystyle {
+  background-image:url('E:\Database\FIRST\FIRST\using.jpg');
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  
+  background-position: center; 
+  } 
