@@ -1,0 +1,5 @@
+E:\Database\FIRST\FIRST\bin\FIRST.dll
+E:\Database\FIRST\FIRST\bin\FIRST.pdb
+E:\Database\FIRST\FIRST\obj\Debug\FIRST.dll
+E:\Database\FIRST\FIRST\obj\Debug\FIRST.pdb
+E:\Database\FIRST\FIRST\obj\Debug\FIRST.csprojResolveAssemblyReference.cache
