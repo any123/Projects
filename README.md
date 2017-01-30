@@ -36,7 +36,7 @@
    Used C languages and Linux system libraries to read, parse and execute user defined along with   
    modification of pre-defined shell commands for relative ease of the user.
     
-   Sample commands include:
+   Sample commands include: 
     
    * opening any file, 
    * finding IP and port no. of a site
