@@ -19,7 +19,7 @@ windows operating system.Now just open the application from the desktop and run 
 You can also do this by typing <em>http://localhost/login.aspx</em></p><br>
 
 <br><img src="https://github.com/yadav-ankit/Projects/blob/master/Projects_Screenshots/Typing%20tutor/1.png"><br>
-<br><img src="https://github.com/yadav-ankit/Projects/blob/master/Projects_Screenshots/Typing%20tutor/2.png"><br>
 <br><img src="https://github.com/yadav-ankit/Projects/blob/master/Projects_Screenshots/Typing%20tutor/4.png"><br>
+<br><img src="https://github.com/yadav-ankit/Projects/blob/master/Projects_Screenshots/Typing%20tutor/2.png"><br>
 <br><img src="https://github.com/yadav-ankit/Projects/blob/master/Projects_Screenshots/Typing%20tutor/3.png"><br>
 
