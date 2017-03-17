@@ -145,8 +145,11 @@ alias t1='sudo rm /var/lib/apt/lists/lock'
 
 alias t2='sudo rm /var/cache/apt/archives/lock'
 
+alias t3='sudo rm /var/lib/dpkg/lock'
 
+alias list='apt-mark showmanual'
 
+alias unins='sudo apt-get remove --purge'
 
-
+alias heman='sudo gedit "/media/ankit/New Volume/ANKIT/My_Current_Status/HEMANT.txt"
 
