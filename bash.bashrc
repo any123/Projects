@@ -151,5 +151,5 @@ alias list='apt-mark showmanual'
 
 alias unins='sudo apt-get remove --purge'
 
-alias heman='sudo gedit "/media/ankit/New Volume/ANKIT/My_Current_Status/HEMANT.txt"
+alias heman='sudo gedit "/media/ankit/New Volume/ANKIT/My_Current_Status/HEMANT.txt"'
 
