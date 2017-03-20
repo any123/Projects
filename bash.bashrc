@@ -131,9 +131,9 @@ alias shut="sudo init 0"
 
 alias sus='systemctl suspend'
 
-alias logoff='gnome-session-quit'
+alias log='gnome-session-quit'
 
-alias program='xdg-open "/media/ankit/New Volume/Programming"'
+alias pro='xdg-open "/media/ankit/New Volume/Programming"'
 
 alias ankit='xdg-open "/media/ankit/New Volume/ANKIT"'
 
@@ -151,5 +151,7 @@ alias list='apt-mark showmanual'
 
 alias unins='sudo apt-get remove --purge'
 
-alias heman='sudo gedit "/media/ankit/New Volume/ANKIT/My_Current_Status/HEMANT.txt"'
+alias heman='sudo gedit "/media/ankit/New Volume/ANKIT/My_Curent_Status/HEMANT.txt"'
+
+alias u='sudo apt update && sudo apt dist-upgrade'
 
