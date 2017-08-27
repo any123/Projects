@@ -67,6 +67,8 @@ if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-no
 	}
 fi
 
+
+
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
 alias remove='sudo apt-get autoremove'
@@ -155,3 +157,4 @@ alias heman='sudo gedit "/media/ankit/New Volume/ANKIT/My_Curent_Status/HEMANT.t
 
 alias u='sudo apt update && sudo apt dist-upgrade'
 
+alias songs='find "/media/ankit/New Volume/video songs" -type f -exec vlc -LZ '{}' +'
