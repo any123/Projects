@@ -123,7 +123,7 @@ alias orphan="sudo deborphan | xargs sudo apt-get -y remove --purge"
 
 alias e='exit'
 
-alias open="sudo gedit /etc/bash.bashrc"
+alias o="sudo gedit /etc/bash.bashrc"
 
 alias finds="grep -rnw" 
 
@@ -153,8 +153,21 @@ alias list='apt-mark showmanual'
 
 alias unins='sudo apt-get remove --purge'
 
-alias heman='sudo gedit "/media/ankit/New Volume/ANKIT/My_Curent_Status/HEMANT.txt"'
+alias he='sudo gedit "/media/ankit/New Volume/ANKIT/My_Curent_Status/HEMANT.txt"'
 
 alias u='sudo apt update && sudo apt dist-upgrade'
 
 alias songs='find "/media/ankit/New Volume/video songs" -type f -exec vlc -LZ '{}' +'
+
+alias theek_new='sudo mount -o remount,rw  "/dev/sda3"'
+
+alias theek_fun='sudo mount -o remount,rw  "/dev/sda5"'
+
+alias puz='find "/media/ankit/New Volume/7_sem/Other/Study/Puzzles" -type f -exec vlc -LZ '{}' +'
+
+alias os_update='update && printf "\n\tchalo THIS WORK IS DONE!!!! Now lets check for new OS\n\n" && sudo do-release-upgrade'
+
+alias help_me='printf "Here are the terms u can use\n\tCleaning:\tclean or orphan\n\tTo update:\tupdate upgrade u\n\tLocked Drive: Phele windows theek se band kr or use theek_new or theek_fun\n\tTo update the OS:\tos_update\n\tProgramming:\tpro\n\tRemove locks:\tt1 t2 t3\n\tFun:\tplay or songs\n\tLog out:\t log" && printf "\n\tchalo THIS WORK IS DONE!!!!\n\n"'
+
+
+
