@@ -169,5 +169,5 @@ alias os_update='update && printf "\n\tchalo THIS WORK IS DONE!!!! Now lets chec
 
 alias help_me='printf "Here are the terms u can use\n\tCleaning:\tclean or orphan\n\tTo update:\tupdate upgrade u\n\tLocked Drive: Phele windows theek se band kr or use theek_new or theek_fun\n\tTo update the OS:\tos_update\n\tProgramming:\tpro\n\tRemove locks:\tt1 t2 t3\n\tFun:\tplay or songs\n\tLog out:\t log" && printf "\n\tchalo THIS WORK IS DONE!!!!\n\n"'
 
-
+alias mp3_convert='pacpl --to mp3 -v -r -bitrate 320'
 
