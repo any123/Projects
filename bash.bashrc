@@ -174,6 +174,5 @@ alias os_update='update && printf "\n\tchalo THIS WORK IS DONE!!!! Now lets chec
 alias help_me='printf "Here are the terms u can use\n\tCleaning:\tremove or clean or orphan\n\tTo update:\tupdate upgrade u\n\tLocked Drive: Phele windows theek se band kr or use theek_new or theek_fun\n\tUninstall\tunis\n\tTo update the OS:\tos_update\n\tProgramming:\tpro\n\tRemove locks:\tt1 t2 t3\n\tFun:\tplay or songs or eng\n\tLog out:\t log" && printf "\n\tchalo THIS WORK IS DONE!!!!\n\n"'
 
 alias op='printf "\tUse sudo rm /etc/bash.bashrc\n\t  \n\tafter editing open Your file from /media/ankit/New Volume/ANKIT/Txt\n\t
-\n\tdo as: sudo cp /media/ankit/New Volume/ANKIT/Txt/bash.bashrc /etc/\n\n"'
-
+\n\tdo as: sudo cp /media/ankit/New Volume/ANKIT/Txt/bash.bashrc /etc/\n\n"' 
 
