@@ -159,15 +159,21 @@ alias u='sudo apt update && sudo apt dist-upgrade'
 
 alias songs='find "/media/ankit/New Volume/video songs" -type f -exec vlc -LZ '{}' +'
 
+alias porn='find "/media/ankit/Fun Stuff/Permanent Roommates/TVF/T" -type f -exec vlc -LZ '{}' +'
+
+alias friends='find "/media/ankit/New Volume/Seasons/F.R.I.E.N.D.S" -type f -exec vlc -LZ '{}' +'
+
+alias eng='find "/media/ankit/Fun Stuff/ENGLISH" -type f -exec vlc -LZ '{}' +'
+
 alias theek_new='sudo mount -o remount,rw  "/dev/sda3"'
 
 alias theek_fun='sudo mount -o remount,rw  "/dev/sda5"'
 
-alias puz='find "/media/ankit/New Volume/7_sem/Other/Study/Puzzles" -type f -exec vlc -LZ '{}' +'
-
 alias os_update='update && printf "\n\tchalo THIS WORK IS DONE!!!! Now lets check for new OS\n\n" && sudo do-release-upgrade'
 
-alias help_me='printf "Here are the terms u can use\n\tCleaning:\tclean or orphan\n\tTo update:\tupdate upgrade u\n\tLocked Drive: Phele windows theek se band kr or use theek_new or theek_fun\n\tTo update the OS:\tos_update\n\tProgramming:\tpro\n\tRemove locks:\tt1 t2 t3\n\tFun:\tplay or songs\n\tLog out:\t log" && printf "\n\tchalo THIS WORK IS DONE!!!!\n\n"'
+alias help_me='printf "Here are the terms u can use\n\tCleaning:\tremove or clean or orphan\n\tTo update:\tupdate upgrade u\n\tLocked Drive: Phele windows theek se band kr or use theek_new or theek_fun\n\tUninstall\tunis\n\tTo update the OS:\tos_update\n\tProgramming:\tpro\n\tRemove locks:\tt1 t2 t3\n\tFun:\tplay or songs or eng\n\tLog out:\t log" && printf "\n\tchalo THIS WORK IS DONE!!!!\n\n"'
 
-alias mp3_convert='pacpl --to mp3 -v -r -bitrate 320'
+alias op='printf "\tUse sudo rm /etc/bash.bashrc\n\t  \n\tafter editing open Your file from /media/ankit/New Volume/ANKIT/Txt\n\t
+\n\tdo as: sudo cp /media/ankit/New Volume/ANKIT/Txt/bash.bashrc /etc/\n\n"'
+
 
