@@ -143,6 +143,7 @@ alias sea='xdg-open "/media/ankit/New Volume/Seasons"'
 
 alias c='clear'
 
+
 alias t1='sudo rm /var/lib/apt/lists/lock'
 
 alias t2='sudo rm /var/cache/apt/archives/lock'
